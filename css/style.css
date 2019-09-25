@@ -1,8 +1,8 @@
 /* font-family: 'Fredoka One', cursive; Headings
 font-family: 'Tajawal', sans-serif; Text */
 
-h1, h2, h3, h4, li{
-    font-family: 'Fredoka One', cursive;
+h1, h2, h3, h4, h5, li{
+    font-family: 'Baloo Bhaina', cursive;
 }
 
 p {
@@ -24,21 +24,34 @@ nav ul {
     list-style-type: none;
 }
 
-
 h2 {
     font-size: 30px;
-    padding: 30px;
+    padding: 20px;
 }
+
+p {
+    font-size: 20px;
+}
+.projects p {
+    color: grey;
+}
+
 
 main {
     background-color: rgb(241, 241, 241);
     margin: 20px;
     padding: 20px;
 }
+
+h3 {
+    font-size: 25px;
+    color:rgb(85, 85, 85);
+}
+
 main img {
     width: 450px;
 }
-main div {
+.projects {
     display: inline-block;
     width: 450px;
     height: 450px;
