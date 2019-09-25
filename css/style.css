@@ -1,3 +1,47 @@
-h1 {
+/* font-family: 'Fredoka One', cursive; Headings
+font-family: 'Tajawal', sans-serif; Text */
+
+h1, h2, h3, h4, li{
+    font-family: 'Fredoka One', cursive;
+}
+
+p {
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background-color: lightgray;
     text-align: center;
+}
+.name {
+    font-size: 40px;
+}
+
+.nav {
+    display: inline-block;
+}
+nav ul {
+    list-style-type: none;
+}
+
+
+h2 {
+    font-size: 30px;
+    padding: 30px;
+}
+
+main {
+    background-color: rgb(241, 241, 241);
+    margin: 20px;
+    padding: 20px;
+}
+main img {
+    width: 450px;
+}
+main div {
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    margin:  20px;
+    vertical-align: middle;
 }
