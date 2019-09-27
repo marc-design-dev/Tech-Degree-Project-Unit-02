@@ -1,5 +1,5 @@
-/* font-family: 'Fredoka One', cursive; Headings
-font-family: 'Tajawal', sans-serif; Text */
+
+/* overal styles for font and body*/
 
 h1, h2, h3, h4, h5, li{
     font-family: 'Baloo Bhaina', cursive;
@@ -10,40 +10,98 @@ p {
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(207, 204, 204);
     text-align: center;
 }
-.name {
-    font-size: 40px;
-}
 
-.nav {
-    display: inline-block;
-}
+/* Main navigation and links */
+
 nav ul {
     list-style-type: none;
 }
 
-h2 {
-    font-size: 30px;
-    padding: 20px;
+.main-nav {
+    max-width: 100%;
+   
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
 }
 
-p {
+.nav .name {
+    font-size: 40px;
+    margin-right: auto;
+}
+.link {
+    margin: auto 30px;
+    text-transform: uppercase;
     font-size: 20px;
 }
-.projects p {
-    color: grey;
+
+.nav  li{
+    display: inline-block;
 }
 
+a {
+    color: rgb(63, 63, 63);
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+a:active {
+    color:black;
+}
+
+/* Profile picture and About text */
+
+header {
+    display:inline-block;
+    margin: 30px 0px;
+}
+
+.about {
+    float: left;
+    width: 50%;
+    text-align: left;
+    color: rgb(92, 92, 92);
+    font-size: 30px;
+    margin: 20px 30px;
+    line-height: 1.5;
+}
+.profile{
+    width: 600px;
+    float: right;
+    margin: 20px 30px;
+}
+.about .profile {
+    clear: both;
+}
+
+/* Portfolio section */
+
+h2 {
+    font-size: 35px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.project-text {
+    font-size: 20px;
+    color: gray;
+}
 
 main {
     background-color: rgb(241, 241, 241);
-    margin: 20px;
+    margin: 0px 30px;
     padding: 20px;
 }
 
-h3 {
+.project-name {
     font-size: 25px;
     color:rgb(85, 85, 85);
 }
