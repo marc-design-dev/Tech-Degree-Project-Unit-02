@@ -22,11 +22,11 @@ nav ul {
 
 .main-nav {
     max-width: 100%;
-   
 }
 .nav {
     display: flex;
     justify-content: space-around;
+    padding-left: 30px;
 }
 
 .nav .name {
