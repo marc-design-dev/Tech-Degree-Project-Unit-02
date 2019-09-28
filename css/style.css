@@ -181,7 +181,7 @@ main img {
         font-size: 2rem;
     }
     .link {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .profile, .about {
         width: 40%;
@@ -212,5 +212,11 @@ main img {
     }
     .contact-details p {
         font-size: 1rem;
+    }
+    .main-footer .link2 {
+        font-size: 1.2rem;
+    }
+    .main-footer .name2 {
+        font-size: 1.5rem;
     }
 }
