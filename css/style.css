@@ -16,6 +16,7 @@ p {
 body {
     background-color: rgb(207, 204, 204);
     text-align: center;
+    margin-top: 40px;
 }
 
                                                     /* Main navigation and links */
@@ -175,3 +176,41 @@ main img {
 
                                                             /* media queries */
 
+@media (max-width: 768px) {
+    .nav .name {
+        font-size: 2rem;
+    }
+    .link {
+        font-size: 1rem;
+    }
+    .profile, .about {
+        width: 40%;
+        font-size: 1rem;
+    }
+    .projects {
+        width: 300px;
+        height: 350px;
+    }
+    .projects img {
+        width: 300px;
+    }
+    .project-name {
+        font-size: 1.5rem;
+    }
+    .project-text {
+        font-size: 1rem;
+    }
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    main h2 {
+        font-size: 1.5rem;
+    }
+    .contact-details h4 {
+        font-size: 1.5rem;
+    }
+    .contact-details p {
+        font-size: 1rem;
+    }
+}
