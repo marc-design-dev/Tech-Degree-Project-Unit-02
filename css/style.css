@@ -232,6 +232,7 @@ main h2 {
         float: left;
         width: 50%;
         font-size: 1rem;
+        margin-top: 10px;
      }
      .group{
         text-align: left;
