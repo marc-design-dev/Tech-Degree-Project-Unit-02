@@ -1,0 +1,375 @@
+
+                                                    /* overal styles for font and body*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, li{
+    font-family: 'Baloo Bhaina', cursive;
+}
+
+p {
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background-color: rgb(207, 204, 204);
+    text-align: center;
+    margin-top: 40px;
+}
+
+                                                    /* Main navigation and links */
+
+nav ul {
+    list-style-type: none;
+}
+
+.main-nav {
+    max-width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+
+.nav .name {
+    font-size: 40px;
+    margin-right: auto;
+}
+.link {
+    margin: auto 30px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.nav  li{
+    display: inline-block;
+}
+
+a {
+    color: rgb(63, 63, 63);
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+a:active {
+    color:black;
+}
+
+                                                         /* Profile picture and About text */
+
+header {
+    display:inline-block;
+    margin: 30px 0px;
+}
+
+.about {
+    float: left;
+    width: 50%;
+    text-align: left;
+    color: rgb(92, 92, 92);
+    font-size: 30px;
+    margin: 20px 30px;
+    line-height: 1.5;
+}
+.profile{
+    width: 600px;
+    float: right;
+    margin: 20px 30px;
+}
+
+.group {
+    content: '';
+    display: table;
+    clear: both;
+}
+                                                        /* Portfolio section */
+
+h2 {
+    font-size: 35px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.project-text {
+    font-size: 20px;
+    color: gray;
+}
+
+main {
+    background-color: rgb(241, 241, 241);
+    margin: 0px 30px;
+    padding: 20px;
+}
+
+.project-name {
+    font-size: 25px;
+    color:rgb(85, 85, 85);
+}
+
+main img {
+    width: 450px;
+}
+.projects {
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    margin:  20px;
+    vertical-align: middle;
+}
+
+                                                        /* Contact Details */
+
+.contact-details {
+    width: 50%;
+    margin: auto;
+}
+
+.contact-details h4 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(24, 24, 24);
+   
+}
+
+.contact-details p {
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+
+}
+
+/* Footer nav */
+
+.nav2 li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.main-footer {
+    border-top: 1px solid rgb(112, 112, 112);
+    margin: 60px 30px 30px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px 30px;
+    padding-left: 0px;
+}
+
+.link2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.name2 {
+    font-size: 25px;
+    margin-right: auto;
+}
+
+.nav2 .backtotop {
+    display: none;
+}
+                                                            /* media queries */
+
+@media (max-width: 1471px) {
+    .profile, .about {
+        width: 40%;
+        font-size: 1.5rem;
+ }
+}
+/* above query for break in site when resizing */
+/* below query for ipad sizes */
+
+@media (max-width: 769px) {
+
+    .nav {
+        display: block;
+        justify-content: space-around;
+        padding-left: 30px;
+    }
+    
+    .nav .name {
+        margin: auto;
+        display: block;
+    }
+    .link {
+        margin: auto 30px;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    
+    .nav .name {
+        font-size: 1.5rem;
+    }
+    
+    .link {
+        font-size: 1.2rem;
+    }
+    .profile, .about {
+        width: 40%;
+        font-size: 1rem;
+    }
+    .projects {
+        width: 300px;
+        height: 350px;
+    }
+    .projects img {
+        width: 300px;
+    }
+    .project-name {
+        font-size: 1.5rem;
+    }
+    .project-text {
+        font-size: 1rem;
+    }
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    main h2 {
+        font-size: 1.5rem;
+    }
+    .contact-details h4 {
+        font-size: 1.5rem;
+    }
+    .contact-details p {
+        font-size: 1rem;
+    }
+    .contact-details {
+        width: 70%;
+    }
+    .main-footer .link2 {
+        font-size: 1.2rem;
+    }
+    .main-footer .name2 {
+        font-size: 1.5rem;
+    }
+   .main-footer {
+       margin-bottom: 30px;
+   }
+}
+
+@media (max-width: 632px) {
+    .profile, .about {
+        float: none;
+        padding: 0px;
+        margin: auto;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .profile {
+        width:70%;
+        margin-bottom: 30px;
+    }
+    .about {
+        width: 85%;
+    }
+}
+
+/* above quary for another break in the site */
+/* below quary for iphone sizes */
+@media (max-width: 321px) {
+
+    .nav {
+        display: block;
+        justify-content: space-around;
+        margin: auto;
+        padding-left: 0px;
+    }
+    
+    .nav .name {
+        margin: auto;
+        display: block;
+    }
+    .nav .link {
+        text-transform: uppercase;
+        display: block;
+    }
+    
+    .nav .name {
+        font-size: 1.3rem;
+    }
+    
+    .link {
+        font-size: 1rem;
+        background-color: lightgray;
+        margin-bottom: 5px;
+    }
+    .profile, .about {
+        float: none;
+        padding: 0px;
+        margin: auto;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .profile {
+        width:70%;
+        margin-bottom: 30px;
+    }
+    .about {
+        width: 85%;
+    }
+    .projects {
+        width: 100%;
+        height: 350px;
+        margin: auto;
+    }
+    .projects img {
+        width: 100%;
+    }
+    .project-name {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    .project-text {
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    main h2 {
+        font-size: 1.5rem;
+    }
+    .contact-details h4 {
+        font-size: 1.2rem;
+    }
+    .contact-details p {
+        font-size: 1rem;
+    }
+    .contact-details {
+        width: 90%;
+    }
+    .main-footer .link2 {
+        font-size: 0.5rem;
+        display: none;
+    }
+    .main-footer .name2 {
+        font-size: 1rem;
+    }
+   .main-footer {
+       margin-bottom: 20px;
+       margin-left: 5px;
+       margin-right: 5px;
+   }
+   .nav2 .backtotop {
+    display: initial;
+}
+    .nav2 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+}
+}
+
+/* Extra Media queries to fix some breaks in the site when resizing */
+
