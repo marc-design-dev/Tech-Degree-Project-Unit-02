@@ -45,6 +45,7 @@ main {
     border-top: solid 1px rgb(37, 159, 207);
 }
 
+
 .nav, .nav2{
     list-style: none;
     padding: 0px;
@@ -65,9 +66,12 @@ a:hover {
     color: rgb(233, 187, 36);
 }
 
-
+.nav2 {
+    border-top: solid 2px rgb(37, 159, 207);
+    width: 92%;
+}
 .main-footer {
-    border-top: solid 1px rgb(37, 159, 207);
+    
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -129,7 +133,9 @@ main h2 {
     width: fit-content;
     margin: 10px auto 10px;
 }
-   
+.main-projects {
+    padding-bottom: 40px;
+}   
 .main-projects .projects{
     width: 100%;
     margin: auto;
@@ -154,7 +160,7 @@ main h2 {
 .contact-details {
         
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     background: linear-gradient(transparent, rgb(233, 233, 233));
     }
 .contact-details h4 {
@@ -171,7 +177,7 @@ main h2 {
     }
 .nav2 {
     display:flex;
-    margin: 0px;
+    margin: auto;
     padding: 20px 0px;
     }
 .nav2 li {
@@ -180,11 +186,11 @@ main h2 {
 .name2 {
     font-size: 0.8rem;
     margin-right: auto;
-    margin-left: 10px;
+    margin-left: 0px;
     }
 .backtotop {
     font-size: 0.8rem;
-    margin-right: 10px;
+    margin-right: 0px;
     }
 .skills img {
     width: 20%;
@@ -279,16 +285,85 @@ main h2 {
         display: none;
     }
     .name2 {
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .link2 {
-        margin-right: 20px;
+        margin-right: 0px;
+        margin-left: 20px;
     }
     .nav2 .name2, .link2{
         font-size: 1.1rem;
     }
+
+}
+
+/* media quaries for 1024px */
+
+
+@media (min-width: 1024px) {
+
+    .main-nav li {
+        display: inline-block;
+        justify-content: space-around;
+    }
+    .main-nav {
+        border-bottom: solid 2px rgb(37, 159, 207);
+        width: 92%;
+        margin: auto;
+    }
+    .nav {
+        display: flex;
+    }
+    .name {
+        margin-right: auto;
+        
+    }
     
-    
-    
-    
+    .link {
+        font-size: 1.2rem;
+    }
+
+    .group {
+        margin-top: 40px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .about {
+        font-size: 1.4rem;
+        line-height: 1.4em;
+        font-size: 1.8vw;
+        margin-top: 10px;
+    }
+    .main-projects h2 {
+        font-size: 1.8rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .main-projects .projects{
+        width: 30%;
+        margin: 1%;
+    }
+    .main-projects h2 {
+        font-size: 1.6rem;
+    }
+    .projects img {
+        width: 100%;
+    }
+    .main-projects {
+        width: 92%;
+        margin: auto;
+        padding-bottom: 40px;
+        border-radius: 10px;
+    }
+    .main-projects p{
+        font-size: 1.1rem;
+    }
+    .projects {
+       vertical-align: top;
+    }
+    .skills {
+        width: 45%;
+    }
+
+
 }
