@@ -3,6 +3,8 @@
     text-align: center;
 } */
 
+
+
 * {
  box-sizing: border-box;
 }
@@ -18,10 +20,11 @@ p {
 
 
 body {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(184, 184, 184);
     text-align: center;
     width: 100%;
     margin: 0px;
+
 }
 
 main {
@@ -37,7 +40,12 @@ main {
     border-radius: 10px;
 }
 
-.nav, .nav2 {
+.projects p {
+    border-bottom: solid 1px rgb(37, 159, 207);
+    border-top: solid 1px rgb(37, 159, 207);
+}
+
+.nav, .nav2{
     list-style: none;
     padding: 0px;
     text-transform: uppercase;
@@ -49,12 +57,14 @@ a {
     color: rgb(39, 39, 39);
     display: block;
 }
-a:hover {
-    color: rgb(212, 174, 49);
-}
+
 a:visited {
     color: rgb(39, 39, 39)
 }
+a:hover {
+    color: rgb(233, 187, 36);
+}
+
 
 .main-footer {
     border-top: solid 1px rgb(37, 159, 207);
@@ -62,7 +72,24 @@ a:visited {
     margin-right: 10px;
 }
 
+.skill-section ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    margin: auto;
+}
+.skill-section h4 {
+    margin-bottom: 0px;
+}
+.skills li{
+    display: inline;
+}
+
+
+
                                         /* Media quary for 320px */
+
+
 
 @media (min-width: 320px) {
 
@@ -71,6 +98,7 @@ a:visited {
 }
 
 .nav .link {
+    
     background-color: rgb(233, 233, 233);
     margin-top: 5px;
     margin-left: 10px;
@@ -88,57 +116,179 @@ header p {
     line-height: 1.5rem;
 }
 
+.main-projects {
+  padding-top: 10px;
+}
+
 main h2 {
     font-size: 1.5rem;
-    padding: 30px 0px 0px;
-    margin-bottom: 10px;
+    padding: 10px 20px 0px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    display: block;
+    width: fit-content;
+    margin: 10px auto 10px;
 }
    
-    .main-projects .projects{
-        width: 100%;
-        margin: auto;
-        padding: 10px 0px 20px;
+.main-projects .projects{
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px 20px;
     }
-    .projects {
-        width: 90%;
+.projects {
+    width: 90%;
     }
-    .projects img {
-        width: 90%;
+.projects img {
+    width: 90%;
     }
-    .projects h3 {
-        font-size: 1.3rem;
-        margin: 5px;
+.projects h3 {
+    font-size: 1.3rem;
+    margin: 5px 0px 0px;
     }
-    .projects p {
-        width: 85%;
-        margin: auto;
+.projects p {
+    width: 85%;
+    margin: auto;
+    padding: 15px 0 10px;
+    color: rgb(139, 139, 139);
     }
-    .contact-details {
-        width: 80%;
-        margin: auto;
+.contact-details {
+        
+    margin: auto;
+    padding-bottom: 20px;
+    background: linear-gradient(transparent, rgb(233, 233, 233));
     }
-    .contact-details h4 {
-        font-size: 1.2rem;
-        margin: 20px auto 0px;
+.contact-details h4 {
+    font-size: 1.2rem;
+    margin: 0px auto 0px;
     }
-    .contact-details p {
-        margin-top: 0px;
+.contact-details p {
+    margin-top: 0px;
+    margin: auto;
+    width: 80%;
     }
-    .nav2 .link2 {
-        display: none;
+.nav2 .link2 {
+    display: none;
     }
-    .nav2 {
-        display:flex;
+.nav2 {
+    display:flex;
+    margin: 0px;
+    padding: 20px 0px;
     }
-    .nav2 li {
+.nav2 li {
+    display: inline-block;
+    }
+.name2 {
+    font-size: 0.8rem;
+    margin-right: auto;
+    margin-left: 10px;
+    }
+.backtotop {
+    font-size: 0.8rem;
+    margin-right: 10px;
+    }
+.skills img {
+    width: 20%;
+    margin: 0% 5% 3%;
+}
+.skill-section h4 {
+    font-size: 1.2rem;
+}
+.main-footer {
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    margin:0px;
+    padding:0px;
+}
+}
+
+
+                                        /* Media quary for 768px */
+
+
+@media (min-width:768px) {
+   body {
+       margin-top: 40px;
+   }
+    .name {
+        font-size: 1.8rem;
+    }
+    .nav .link{
         display: inline-block;
     }
+    #hlink li{
+        background: transparent;
+    }
+     .profile {
+        float: right;
+        width: 45%;
+     }   
+     .about {
+        float: left;
+        width: 50%;
+        font-size: 1rem;
+     }
+     .group{
+        text-align: left;
+        content: '';
+        display: table;
+        clear: both;
+        margin: 5%;
+     }
+    .main-projects .projects{
+        width: 45%;
+        display: inline-block;
+        margin: 10px;
+    }
+    .main-projects h2 {
+        font-size: 1.6rem;
+    }
+    .projects img {
+        width: 100%;
+    }
+    .main-projects {
+        padding-bottom: 40px;
+    }
+    .main-projects p{
+        font-size: 1.1rem;
+    }
+    .projects {
+       vertical-align: top;
+    }
+    .skill-section h4 {
+        font-size: 1.6rem;
+        margin: 40px 0 20px 0;
+    }
+    .skills {
+        width: 70%;
+    }
+    .contact-details h4 {
+        font-size: 1.6rem;
+        margin: 10px 0 20px 0;
+    }
+    .contact-details p{
+        width: 60%;
+        font-size: 1.2rem;
+    }
+    .contact-details {
+        padding-bottom: 40px;
+    }
+    .nav2 .link2 {
+        display: initial;
+    }
+    .nav2 .backtotop {
+        display: none;
+    }
     .name2 {
-        font-size: 0.8rem;
-        margin-right: auto;
+        margin-left: 20px;
     }
-    .backtotop {
-        font-size: 0.8rem;
+    .link2 {
+        margin-right: 20px;
     }
-
+    .nav2 .name2, .link2{
+        font-size: 1.1rem;
+    }
+    
+    
+    
+    
 }
