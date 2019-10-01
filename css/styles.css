@@ -83,14 +83,6 @@ a:hover {
     display: inline;
 }
 
-
-
-                                        /* Media quary for 320px */
-
-
-
-@media (min-width: 320px) {
-
 .name {
     font-size: 1.2rem;
 }
@@ -199,7 +191,7 @@ main h2 {
     margin:0px;
     padding:0px;
 }
-}
+
 
 
                                         /* Media quary for 768px */
