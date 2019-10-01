@@ -1,9 +1,3 @@
-/* html {
-    width: 100%;
-    text-align: center;
-} */
-
-
 
 * {
  box-sizing: border-box;
@@ -298,7 +292,7 @@ main h2 {
 
 }
 
-/* media quaries for 1024px */
+                                    /* media quaries for 1024px */
 
 
 @media (min-width: 1024px) {
@@ -365,6 +359,4 @@ main h2 {
     .skills {
         width: 45%;
     }
-
-
 }
