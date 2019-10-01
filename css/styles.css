@@ -221,10 +221,10 @@ main h2 {
      .profile {
         float: right;
         width: 45%;
+        margin-left: 30px;
      }   
      .about {
-        float: left;
-        width: 50%;
+        width: 100%;
         font-size: 1rem;
         margin-top: 10px;
      }
@@ -311,7 +311,6 @@ main h2 {
     }
     .name {
         margin-right: auto;
-        
     }
     
     .link {
